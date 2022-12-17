@@ -1,0 +1,72 @@
+// Alert iniziale
+alert('Per proseguire rispondi al seguente questionario');
+// verifica debug 
+console.log('fin qui tutto bene');
+
+// Creazione variabile per NOME utente tramite prompt
+const user_name = prompt("Inserisci il tuo nome");
+// Risposta questionario tramite sostituz di getElement 
+document.getElementById('user-name').innerHTML = user_name;
+
+// verifica debug
+console.log('fin qui tutto bene');
+
+// Creazione variabile per COGNOME utente tramite prompt
+const user_surname = prompt("Inserisci il tuo cognome");
+// Risposta questionario tramite sostituz di getElement 
+document.getElementById('user-surname').innerHTML = user_surname;
+
+// verifica debug 
+console.log('fin qui tutto bene');
+
+// Creazione variabile per COLORE PREFERITO utente tramite prompt
+const favourite_color = prompt("Inserisci il tuo colore preferito");
+document.getElementById('favourite-color').innerHTML = favourite_color;
+
+// verifica debug 
+console.log('fin qui tutto bene');
+
+// SOLUZIONE ESERCIZIO
+let number= 21;
+const solution = user_name + user_surname + favourite_color + number;
+document.getElementById('solution').innerHTML = solution;
+
+// verifica debug 
+console.log('fin qui tutto bene');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Prove aggiuntive "Gli spazi
+let email= 'antonio.savino1993@gmail.com';
+const prova = user_name + '  ' + user_surname + '  ' + favourite_color + '  ' + email;
+document.getElementById('bonus').innerHTML = prova;
+
+// Prove aggiuntive "Template Literal"
+let testo_uno = 'Qualcuno';
+let testo_due = 'sul';
+let testo_tre = 'del';
+let testo_completo = `
+${testo_uno} volò
+${testo_due} nido
+${testo_tre} cuculo
+`;
+document.getElementById('bonus-due').innerHTML = testo_completo
+
+console.log(testo_completo)
+
+
+
+
+
+ 

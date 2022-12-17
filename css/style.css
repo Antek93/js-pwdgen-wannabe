@@ -1,0 +1,29 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.style {
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+.ultimate {
+    color: blue;
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
