@@ -27,7 +27,7 @@ document.getElementById('favourite-color').innerHTML = favouriteColor;
 console.log('fin qui tutto bene');
 
 // SOLUZIONE ESERCIZIO
-let randomNumber= 21;
+let randomNumber= '21'; // tra le stringhe per trasformarlo in un valore stringa
 const solution = userName + userSurname + favouriteColor + randomNumber;
 document.getElementById('solution').innerHTML = solution;
 
@@ -49,7 +49,7 @@ console.log('fin qui tutto bene');
 
 // Prove aggiuntive "Gli spazi
 let email= 'antonio.savino1993@gmail.com';
-const prova = user_name + '  ' + user_surname + '  ' + favourite_color + '  ' + email;
+const prova = userName + '  ' + userSurname + '  ' + favouriteColor + '  ' + email;
 document.getElementById('bonus').innerHTML = prova;
 
 // Prove aggiuntive "Template Literal"
