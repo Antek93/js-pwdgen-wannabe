@@ -27,7 +27,7 @@ document.getElementById('favourite-color').innerHTML = favouriteColor;
 console.log('fin qui tutto bene');
 
 // SOLUZIONE ESERCIZIO
-let randomNumber= '21'; // tra le stringhe per trasformarlo in un valore stringa
+let randomNumber= '21'; // tra virgolette per trasformarlo in un valore stringa
 const solution = userName + userSurname + favouriteColor + randomNumber;
 document.getElementById('solution').innerHTML = solution;
 
