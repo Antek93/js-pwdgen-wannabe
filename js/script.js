@@ -4,31 +4,31 @@ alert('Per proseguire rispondi al seguente questionario');
 console.log('fin qui tutto bene');
 
 // Creazione variabile per NOME utente tramite prompt
-const user_name = prompt("Inserisci il tuo nome");
+const userName = prompt("Inserisci il tuo nome");
 // Risposta questionario tramite sostituz di getElement 
-document.getElementById('user-name').innerHTML = user_name;
+document.getElementById('user-name').innerHTML = userName;
 
 // verifica debug
 console.log('fin qui tutto bene');
 
 // Creazione variabile per COGNOME utente tramite prompt
-const user_surname = prompt("Inserisci il tuo cognome");
+const userSurname = prompt("Inserisci il tuo cognome");
 // Risposta questionario tramite sostituz di getElement 
-document.getElementById('user-surname').innerHTML = user_surname;
+document.getElementById('user-surname').innerHTML = userSurname;
 
 // verifica debug 
 console.log('fin qui tutto bene');
 
 // Creazione variabile per COLORE PREFERITO utente tramite prompt
-const favourite_color = prompt("Inserisci il tuo colore preferito");
-document.getElementById('favourite-color').innerHTML = favourite_color;
+const favouriteColor = prompt("Inserisci il tuo colore preferito");
+document.getElementById('favourite-color').innerHTML = favouriteColor;
 
 // verifica debug 
 console.log('fin qui tutto bene');
 
 // SOLUZIONE ESERCIZIO
-let number= 21;
-const solution = user_name + user_surname + favourite_color + number;
+let randomNumber= 21;
+const solution = userName + userSurname + favouriteColor + randomNumber;
 document.getElementById('solution').innerHTML = solution;
 
 // verifica debug 
