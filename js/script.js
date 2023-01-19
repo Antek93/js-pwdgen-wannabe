@@ -41,12 +41,6 @@ console.log('fin qui tutto bene');
 
 
 
-
-
-
-
-
-
 // Prove aggiuntive "Gli spazi
 let email= 'antonio.savino1993@gmail.com';
 const prova = userName + '  ' + userSurname + '  ' + favouriteColor + '  ' + email;
